@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/manya-portfolio/static/css/main.fd26b977.css",
+    "main.js": "/manya-portfolio/static/js/main.c0589cdc.js",
+    "index.html": "/manya-portfolio/index.html",
+    "main.fd26b977.css.map": "/manya-portfolio/static/css/main.fd26b977.css.map",
+    "main.c0589cdc.js.map": "/manya-portfolio/static/js/main.c0589cdc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fd26b977.css",
+    "static/js/main.c0589cdc.js"
+  ]
+}
