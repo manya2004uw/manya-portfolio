@@ -164,13 +164,14 @@ const App = () => {
         satisfaction: '20% increase in customer satisfaction'
       },
       tradeoffs: 'Chose Firebase over traditional databases for real-time requirements in high-concurrency restaurant environments. The serverless architecture reduced infrastructure overhead but required careful schema design for offline resilience.',
+      github: '#',
       impact: 'high'
     },
     {
       id: 'seo-agent',
       title: 'AI SEO Audit Agent',
-      company: 'AISC Builder Cohort at University of Washington',
-      role: 'Co-developer',
+      company: 'Betty24 GmbH',
+      role: 'Software Development Intern',
       category: 'AI/Backend',
       problem: 'Traditional SEO audits cost $100+ and took days to complete, making them inaccessible for small businesses.',
       techStack: ['Gemini 1.5', 'RAG Pipeline', 'Cheerio', 'Node.js', 'REST APIs'],
@@ -188,7 +189,7 @@ const App = () => {
         accessibility: 'Democratized SEO for small businesses'
       },
       tradeoffs: 'Selected Gemini 1.5 over GPT-4 for better cost-to-performance ratio on bulk text analysis. RAG approach over fine-tuning provided flexibility for evolving SEO standards without model retraining.',
-      github: ' https://seo-agent-6xv.pages.dev',
+      github: '#',
       impact: 'high'
     },
     {
@@ -213,7 +214,6 @@ const App = () => {
         scale: '1,000+ survey responses analyzed'
       },
       tradeoffs: 'Chose Tableau over custom web dashboards for faster deployment and better stakeholder familiarity. This reduced development time by 80% while maintaining professional quality.',
-      github: 'https://github.com/manya2004uw/edmondsSchoolDistrictTableau',
       impact: 'medium'
     },
     {
@@ -339,15 +339,11 @@ const App = () => {
                   {isEngineering ? '🚀 Full-Stack Developer' : '📊 Technical Product Manager'}
                 </span>
               </div>
-              <h2 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
+              <h2 className="text-4xl md:text-6xl font-bold mb-6 leading-tight text-white">
                 {isEngineering ? (
-                  <>
-                    Building <span className="bg-gradient-to-r from-purple-300 via-pink-300 to-purple-400 bg-clip-text text-transparent">Scalable AI Systems</span>
-                  </>
+                  <>Building Scalable AI Systems</>
                 ) : (
-                  <>
-                    Driving Impact Through <span className="bg-gradient-to-r from-purple-300 via-pink-300 to-purple-400 bg-clip-text text-transparent">Data & Strategy</span>
-                  </>
+                  <>Driving Impact Through Data & Strategy</>
                 )}
               </h2>
               <p className="text-xl text-gray-300 leading-relaxed">
