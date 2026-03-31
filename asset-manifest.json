@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/manya-portfolio/static/css/main.1a227938.css",
-    "main.js": "/manya-portfolio/static/js/main.e45cc8ac.js",
+    "main.js": "/manya-portfolio/static/js/main.da21b488.js",
     "index.html": "/manya-portfolio/index.html",
     "main.1a227938.css.map": "/manya-portfolio/static/css/main.1a227938.css.map",
-    "main.e45cc8ac.js.map": "/manya-portfolio/static/js/main.e45cc8ac.js.map"
+    "main.da21b488.js.map": "/manya-portfolio/static/js/main.da21b488.js.map"
   },
   "entrypoints": [
     "static/css/main.1a227938.css",
-    "static/js/main.e45cc8ac.js"
+    "static/js/main.da21b488.js"
   ]
 }
