@@ -170,17 +170,17 @@ const App = () => {
     {
       id: 'seo-agent',
       title: 'AI SEO Audit Agent',
-      company: 'Betty24 GmbH',
-      role: 'Software Development Intern',
+      company: 'AI Student Collective',
+      role: 'Developer',
       category: 'AI/Backend',
       problem: 'Traditional SEO audits cost $100+ and took days to complete, making them inaccessible for small businesses.',
-      techStack: ['Gemini 1.5', 'RAG Pipeline', 'Cheerio', 'Node.js', 'REST APIs'],
-      architecture: 'Engineered a RAG-driven SEO pipeline using Gemini 1.5 for content analysis, Cheerio for web scraping, and implemented CORS security with intelligent rate limiting for async REST operations.',
+      techStack: ['Gemini 1.5', 'RAG Pipeline', 'Cheerio', 'Node.js', 'REST APIs', 'Vector Databases (Clouflare Vectorize)','KV Storage','Tensorflow'],
+      architecture: 'Architected a serverless RAG pipeline on Cloudflare Workers using Gemini 1.5 and Vectorize; implemented CORS security and leaky-bucket rate limiting for global, low-latency SEO audits.',
       engineeringHighlights: [
-        'Built RAG pipeline with Gemini 1.5 for semantic SEO analysis',
-        'Implemented Cheerio-based web scraping with CORS handling',
-        'Designed rate-limiting middleware for API protection',
-        'Optimized async operations for sub-20s audit completion'
+        'Architected a serverless RAG pipeline using Cloudflare Workers and Gemini 1.5 for high-precision semantic SEO analysis.',
+        'Engineered a distributed scraping engine with Cheerio and CORS-secured middleware to handle complex cross-origin data ingestion.',
+        'Designed "leaky-bucket" rate-limiting and API protection layers to ensure global service availability and infrastructure security.',
+        'Optimized async task orchestration, leveraging edge-concurrency to achieve sub-20s audit completion for 100+ metrics.'
       ],
       productMetrics: {
         cost: '99% cost reduction ($0.01 vs $100+)',
@@ -189,7 +189,7 @@ const App = () => {
         accessibility: 'Democratized SEO for small businesses'
       },
       tradeoffs: 'Selected Gemini 1.5 over GPT-4 for better cost-to-performance ratio on bulk text analysis. RAG approach over fine-tuning provided flexibility for evolving SEO standards without model retraining.',
-      github: '#',
+      github: 'https://github.com/manya2004uw/cf_ai_seo-agent',
       impact: 'high'
     },
     {
