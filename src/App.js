@@ -249,6 +249,17 @@ const App = () => {
   };
 
   const experience = [
+        {
+      title: 'Director of Projects',
+      company: 'AI Student Collective (AISC) @ UW',
+      period: '2025 – Present',
+      icon: <Briefcase size={20} />,
+      highlights: [
+        'Co-hosted "Hack to the Future" hackathon with 100+ participants and industry judges',
+        'Spearheading Spring 2026 Project Cohort - 6-week intensive AI build cycle',
+        'Leading team of Team Leads mentoring students through full-stack AI development'
+      ]
+    },
     {
       title: 'Software Development Intern',
       company: 'Betty24 GmbH',
